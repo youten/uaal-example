@@ -25,16 +25,6 @@ import app.reality.androiduaalsphere.ui.theme.AndroidUaaLSphereTheme
 import com.unity3d.player.UnityPlayer
 import com.unity3d.player.UnityPlayerForActivityOrService
 
-// unityLibraryの動作確認用
-//import android.os.Bundle
-//import com.unity3d.player.UnityPlayerActivity
-//
-//class MainActivity : UnityPlayerActivity() {
-//    override fun onCreate(savedInstance: Bundle?){
-//        super.onCreate(savedInstance)
-//    }
-//}
-
 class MainActivity : ComponentActivity() {
 
     private lateinit var unityPlayer: UnityPlayerForActivityOrService

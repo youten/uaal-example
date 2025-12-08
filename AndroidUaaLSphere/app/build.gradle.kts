@@ -59,6 +59,6 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     implementation(project(":unityLibrary"))
-    // project(":unityLibrary").getProjectDir が解決できなかったので相対パスで強引に解決
+    // ktsでは project(":unityLibrary").getProjectDir と書けなかったので相対パスで解決
     implementation(fileTree(project.projectDir.resolve("../unityLibrary/libs")))
 }
